@@ -1,0 +1,25 @@
+.appcontainer {width: 80%;  background-color: MidnightBlue; display: flex; flex-direction: column; justify-content: space-around; align-content: space-around; color: white; margin: 30px auto; border-radius: 30px; padding: 10px;}
+
+.title {font-size: 3em; text-align: center; border: 2px solid SlateGray; margin: 10px;}
+
+.submittodo,.saveload {text-align: center; margin: 10px;}
+
+#createtodo {background-color: MidnightBlue; color: white; border: 2px solid SlateGray; font-size: 1.5em;}
+
+#submit, #save, #load {background-color: MidnightBlue; color: white; border: 2px solid SlateGray; font-size: 1.5em;}
+
+#submit:hover, #save:hover, #load:hover {background-color: white; color: MidnightBlue;}
+
+.todos {display: flex; justify-content: space-around;}
+
+.todolist, .complist {width: 40%; display: flex; flex-direction: column; justify-content:flex-start;;align-content: center;}
+
+h1 {background-color: white; color: MidnightBlue; border-radius: 15px; padding: 10px; text-align: center; font-size: 1em; text-transform: uppercase;}
+
+.notDone {background-color: indigo; color: white; border-radius: 15px; padding: 10px; text-align: center; font-size: 1em; text-transform: uppercase; margin: 5px 0; border: 2px solid gold;}
+
+.notDone:hover {background-color: white; color: indigo;}
+
+.done {background-color: Maroon; color: white; border-radius: 15px; padding: 10px; text-align: center; font-size: 1em; text-transform: uppercase; margin: 5px 0; border: 2px solid gold;}
+
+.done:hover {background-color: white; color: Maroon;}

@@ -1,0 +1,20 @@
+/* * {
+  outline: 1px solid gold;
+  outline-offset: -1px;
+} */
+
+body {background-color: black; color: orange; font-family: 'Arimo', sans-serif;}
+
+h1 {font-family: 'Creepster', cursive; font-size: 5em;}
+
+.inventory {display: flex; flex-direction: row;}
+
+.banner {width: 100%;}
+
+.item{display: flex; flex-direction: column; font-size: 1.7em; width:20%;height:300px;}
+
+.item img {height:200px;}
+
+button {font-size: .7em;}
+
+p {text-align: center; font-size: 1.5em;}

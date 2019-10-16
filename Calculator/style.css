@@ -1,0 +1,16 @@
+/* * {outline: 2px solid gold;} */
+
+#title {text-align: center; margin: 10px auto; font-size: 3em;}
+
+#calccontainer {background-color: black; height: 500px; width: 450px; margin: 10px auto; border: 3px solid orange; border-radius: 20px;}
+
+.screenrow {display: flex; width: 80%; margin: 15px auto; justify-content: space-between;}
+
+.buttonrow {display: flex; width: 80%; border: 2px solid orange; margin: auto; flex-wrap:wrap; justify-content: space-between;}
+
+.button {height: 40px; width: 15%; background-color: orange; color: black; text-align: center; margin: 2%; padding: 10px; border-radius: 50px; font-size: 2em;}
+
+
+#screen {background-color: orange; color: black; border-radius: 15px; text-align: right; font-size: 2em; padding: 10px;}
+
+#resultbox {margin: 20px auto; color: orange; font-size: 2em; text-align: center;}
