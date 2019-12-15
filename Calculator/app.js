@@ -126,7 +126,10 @@ $eq.on('click',(event)=>{
 })
 
 $('.buttonrow').on('click',(event) =>{
+	$(event.target)[0].className == 'buttonrow' ? console.log('not a clickable area') :
 	$('#screen').text($('#screen').text() + $(event.target).text());
+	console.log($(event.target))
+	console.log($(event.target)[0].className)
 	console.log($('#screen').text);
 })
 
